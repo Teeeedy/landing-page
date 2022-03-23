@@ -1,0 +1,14 @@
+*{
+    border: 4px red;
+
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header nav p {
+    color: white;
+    flex: 1;
+}
