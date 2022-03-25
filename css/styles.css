@@ -1,14 +1,96 @@
-*{
-    border: 4px red;
-
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-.header{
+
+header {
+    background-color:#1f2937;
+    margin: 0px;
+}
+
+
+nav{
     background-color: #1f2937;
     display: flex;
+    justify-content: center;
 }
 
-.header nav p {
-    color: white;
-    flex: 1;
+.logo{
+    display: flex;
+    flex:1;
+    color: #F9FAF8;
+    font-weight: 800;  
+    justify-content: space-evenly;
+    padding: 20px;
 }
+
+.logo h6{
+    font-size: 24px;
+}
+
+.nav{
+    color: #e5e7eb;
+    flex:1;
+    display:flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav div{
+    flex: 1;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+section {
+    display: flex;
+    padding: 40px 200px;
+    padding-bottom: 100px;
+}
+
+.htext{
+    flex:1;
+    margin-right: 40px;
+}
+
+.htext h5{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.htext p{
+    font-weight: 800;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0px;
+
+}
+
+.htext button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+.himg{
+    flex:1;
+    display: flex;
+    background-color: grey;
+}
+
